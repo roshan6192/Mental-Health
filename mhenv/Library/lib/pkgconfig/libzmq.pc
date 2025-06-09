@@ -1,0 +1,12 @@
+prefix=e:/Projects/Mental-Health/mhenv/Library
+exec_prefix=e:/Projects/Mental-Health/mhenv/Library
+libdir=e:/Projects/Mental-Health/mhenv/Library/lib
+includedir=e:/Projects/Mental-Health/mhenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
